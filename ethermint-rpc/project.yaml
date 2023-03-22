@@ -44,7 +44,7 @@ network:
         - Any
 dataSources:
   - kind: cosmos/EthermintEvm
-    startBlock: 5285150 # Note that Cro Crow Token started at 5285150
+    startBlock: 5285150 # Note that VVS Token started at 5285150
     processor:
       file: ./node_modules/@subql/ethermint-evm-processor/dist/bundle.js
       options:
