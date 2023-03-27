@@ -44,7 +44,7 @@ network:
         - Any
 dataSources:
   - kind: cosmos/EthermintEvm
-    startBlock: 946 # Note that "TokenName" Token started at "Blockheight"
+    startBlock: 946 # Note that {TokenName} Token started at "Blockheight"
     processor:
       file: ./node_modules/@subql/ethermint-evm-processor/dist/bundle.js
       options:
