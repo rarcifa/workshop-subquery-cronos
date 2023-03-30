@@ -44,15 +44,15 @@ network:
         - Any
 dataSources:
   - kind: cosmos/EthermintEvm
-    startBlock: 946 # Note that Cro Crow Token started at 946
+    startBlock: 5285150 # Note that Cro Crow Token started at 946
     processor:
       file: ./node_modules/@subql/ethermint-evm-processor/dist/bundle.js
       options:
         abi: erc20
-        address: "0xE4ab77ED89528d90E6bcf0E1Ac99C58Da24e79d5" #Cro Crow Token
+        address: "0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03" #Cro Crow Token
     assets:
       erc20:
-        file: ./cro-crow.abi.json
+        file: ./vvs.abi.json
     mapping:
       file: ./dist/index.js
       handlers:
